@@ -3,14 +3,16 @@
 **Git** is a VCS(Version control system)
 which in layman's language means it helps to control the updates in the version.
 
-why do we use Git?
+# why do we use Git?
 the three major reasons why we use Git are as follows:-
 
 1. It helps in collaboration.
 2. It helps in version control(tracking version & Controlling it)
 3. it keeps track of everything- who edited, when edited, what changes are made
 
+you can refer to this video for more understanding
 
+%[https://www.youtube.com/watch?v=MiZgxpd5_Tw&t=18s]
 
 What is GitHub?
 GitHub is basically a service provider that provides the service that is Git.
