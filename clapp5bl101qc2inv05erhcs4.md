@@ -2,6 +2,8 @@
 
 Even if you are a very good programmer, especially a full stack developer and if you don't have an amazing Git hub profile then there is a 99% chance you will be rejected even before the interview, which means you will never be shortlisted for the interview.
 
+%[https://www.youtube.com/watch?v=6D7Eu2BIRdE&t=9s]
+
 ### Make sure you have a professional photograph and rest everything I will do it for you and your profile will look similar to the profile below:-
 
 ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1668942920730/rR0d7iv06.png align="left")
