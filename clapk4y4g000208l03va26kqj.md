@@ -12,6 +12,8 @@
 
 Considering this in mind me and my small team is developing a `FULL STACK DEVELOPER COURSE` that will be free of cost.
 
+%[https://www.youtube.com/watch?v=L6jy5dCCJ3Q&t=1s]
+
 ## The following things will be covered in this course:-
 
 - HTML
