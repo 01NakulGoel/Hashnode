@@ -2,6 +2,9 @@
 
 This is the first lecture of the WEBDEV Course by Nakul Goel,  instead of starting with HTML and CSS we will be starting with JavaScript.
 
+The detailed video lecture is below:-
+%[https://www.youtube.com/watch?v=Ue47DP_ytMo]
+
 Before moving ahead 
 
 ## Important channels to Follow and subscribe to:-
@@ -170,9 +173,12 @@ Strings are basically a collection of characters (numbers, symbols, alphabet)
 anything inside the quote is the string. it cannot be changed.
 
 three ways to store alphabets(strings)
+
 1) '   ' single quote
+
 2) "  " double quote
-3) `  ` backticks
+
+3) `` backticks
 
 
 
