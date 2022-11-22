@@ -3,6 +3,7 @@
 This is the first lecture of the WEBDEV Course by Nakul Goel,  instead of starting with HTML and CSS we will be starting with JavaScript.
 
 The detailed video lecture is below:-
+
 %[https://www.youtube.com/watch?v=Ue47DP_ytMo]
 
 Before moving ahead 
