@@ -1,6 +1,6 @@
-# JavaScript Comparison and Relational Operators, WEBDEV Course by Nakul Goel Day-2
+# JavaScript Comparison and Relational Operators, WEBDEV Course by Nakul Goel Day-3
 
-This is the third lecture of the WEBDEV Course by Nakul Goel, today we will be learning what are Mathematical/ Arithmetic Operators in JavaScript.
+This is the third lecture of the WEBDEV Course by Nakul Goel, today we will be learning what are Comparison and Relational Operators in JavaScript.
 
 The detailed video lecture is below:-
 
