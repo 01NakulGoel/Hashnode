@@ -2,7 +2,7 @@
 
 # Are you thinking of becoming a web developer or a web developer?
 
-**These 10 things every web developer must know**
+**These 11 things every web developer must know**
 
 # 1) HTML (HyperText Markup Language)
   This is the most basic language that provides structure to the web page.  i have made a detailed HTML blog you can check it out below:-
