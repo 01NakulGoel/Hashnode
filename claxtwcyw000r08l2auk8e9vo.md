@@ -169,7 +169,10 @@ console.log( 'Hello' )
 
 # Assignment:-
 
-will be uploaded at 10 PM
+Q1 Run a loop from 15,14,23,35 and check how many prime numbers are there. prime number is a number which is divisible by itself and 1.
+
+Q2 
+
  
 
 
