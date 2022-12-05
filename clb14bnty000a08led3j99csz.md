@@ -4,7 +4,7 @@ This is the seventh lecture of the WEBDEV Course by Nakul Goel, today we will be
 
 The detailed video lecture is below:-
 
-
+%[https://www.youtube.com/watch?v=_V4Pe0MnHYo&t=1103s]
 
 # Before moving ahead
 
