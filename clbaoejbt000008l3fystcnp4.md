@@ -4,7 +4,7 @@ This is the eighth lecture of the WEBDEV Course by Nakul Goel, today we will be 
 
 The detailed video lecture is below:-
 
-%[] 
+%[https://www.youtube.com/watch?v=Nm9oi9OKWPU] 
 
 # Before moving ahead
 
