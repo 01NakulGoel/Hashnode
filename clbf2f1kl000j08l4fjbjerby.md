@@ -4,7 +4,7 @@ This is the ninth lecture of the WEBDEV Course by Nakul Goel, today we will be l
 
 The detailed video lecture is below:-
 
-%[] 
+%[https://www.youtube.com/watch?v=BuG-87_PAmU] 
 
 # Before moving ahead
 
@@ -202,23 +202,13 @@ console.log(ans)
 
 Some questions for all of you
 
-1)
-
 ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1668579076075/by0cboU2k.png align="left")
-
-2)
 
 ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1668579132268/wIcQU_j5m.png align="left")
 
-3)
-
 ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1668579181341/nWtu4s2j7.png align="left")
 
-4)
-
 ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1668579207614/eixaD53nw.png align="left")
-
-5)
 
 ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1668579238562/IvUqUPJwJ.png align="left")
 
