@@ -10,9 +10,12 @@ This is the tenth lecture of the WEBDEV Course by Nakul Goel, today we will be l
 
 Important channels to Follow and subscribe to:-
 
-Youtube:- [Channel page](https://www.youtube.com/channel/@nakulgoel/)
+1.  **Youtube** :- [Channel page](https://www.youtube.com/channel/@nakulgoel/)
+    
+2.  **GitHub** :- [**github.com/01NakulGoel**](http://github.com/01NakulGoel)
+    
 
-GitHub:- [**github.com/01NakulGoel**](http://github.com/01NakulGoel)
+# What is Git?
 
 **<mark>Git</mark>** is a VCS(Version control system) which in layman's language means it helps to <mark>control and update</mark> the version of the software.
 
