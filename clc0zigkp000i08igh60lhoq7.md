@@ -56,21 +56,33 @@ I am back with the second blog about mastering react in 8 weeks and I hope you g
     
     This will install npm globally on your machine, which means that you will be able to use it from any directory.
     
-3. Now make a folder and open in your vs code and go to the terminal and we will install react.
+
+# Lets Install React
+
+1. Now make a folder and open in your vs code and go to the terminal.
     
-    To install a React app, you will need to have Node.js and npm (the Node.js package manager) installed on your machine.
+2. To install a React app, you will need to have Node.js and npm (the Node.js package manager) installed on your machine.
     
-    Once you have Node.js and npm installed, you can use the following steps to install a new React app:
+3. Once you have Node.js and npm installed, you can use the following steps to install a new React app:
     
-    1. Open a terminal and navigate to the directory where you want to create your new React app.
+    * Open a terminal and navigate to the directory where you want to create your new React app.
         
         ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1671799341832/b8531a84-b89f-4e8d-8284-009fe80083cb.png align="center")
         
-    2. Run the following command to create a new React app:
+    * Run the following command to create a new React app:
         
     
     ```javascript
     npx create-react-app my-app
+    
+    
+    
+    
+    
+    
+    
+    
+    
     ```
     
     This will create a new directory called "my-app" with a basic React app setup.
@@ -81,14 +93,14 @@ I am back with the second blog about mastering react in 8 weeks and I hope you g
     
     It can take time to install react according to your <mark>internet speed</mark> and your PC specs.
     
-    1. Navigate into the new project directory by running the following command:
+    * Navigate into the new project directory by running the following command:
         
     
     ```javascript
     cd my-app
     ```
     
-    1. Start the development server by running the following command:
+    * Start the development server by running the following command:
         
     
     ```javascript
@@ -98,21 +110,23 @@ I am back with the second blog about mastering react in 8 weeks and I hope you g
     This will open a new browser window with your React app running.
     
 
-I will recommend following my approach and do not install it globally reason being when you install it globally it is difficult to update the resource globally and moreover it can lead to version conflicts and other issues.
+<mark>I will recommend following my approach and do not install it globally reason being when you install it globally it is difficult to update the resource globally and moreover it can lead to version conflicts and other issues.</mark>
 
-if you see the below window your react app has been installed perfectly, congratulation.
+if you see the below window your react app has been installed perfectly,
+
+## Congratulations
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1671800011394/7b64a9da-ffd5-4b41-a31a-37a1cc72b1be.png align="center")
 
-## Folder Structure
+## Folder Structure in React
 
-below is the typical image of the folder structure that you will see after installing react app.
+Below is the typical image of the folder structure that you will see after installing react app.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1671800204077/f2fba89c-aa31-415e-90f4-685b80b1e646.png align="center")
 
-1. node\_modules:- it contains all the dependencies of your project and typically it's a heavy folder so you should always mention the node\_modules folder in your .gitignore file so that it can be ignored.
+1. **node\_modules**:- it contains all the dependencies of your project and typically it's a heavy folder so you should always mention the node\_modules folder in your .gitignore file so that it can be ignored.
     
-2. public folder:- this folder contains the HTML file that is used to render the app, sometimes it can contain favicon, images, logo, and so on. the most important file for us is index.html therefore do not modify this file.
+2. **public folder**:- this folder contains the HTML file that is used to render the app, sometimes it can contain favicon, images, logo, and so on. the most important file for us is index.html therefore do not modify this file.
     
     index.html file contains the div which is the root element.
     
@@ -122,11 +136,11 @@ below is the typical image of the folder structure that you will see after insta
     
     you will see a div with root as an id, basically root component will render all the UI of our application. we will understand how at a later stage in the article.
     
-3. src folder:- It means source code therefore it will contain all the js files.
+3. **src folder**:- It means source code therefore it will contain all the js files.
     
     This is the folder where you will spend most of your time.
     
-4. .gitignore:- it's basically a text file where you can write the location of the file that should be ignored such as node\_modules.
+4. **.gitignore**:- it's basically a text file where you can write the location of the file that should be ignored such as node\_modules.
     
     ```javascript
     # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
@@ -154,16 +168,16 @@ below is the typical image of the folder structure that you will see after insta
     yarn-error.log*
     ```
     
-5. package.json:- this is a file that contains all the dependencies of node.js and scripts. it is always present in the root directory of the file.
+5. **package.json**:- this is a file that contains all the dependencies of node.js and scripts. it is always present in the root directory of the file.
     
-6. README.md:- it is a file that contains information about the project.
+6. **README.md**:- it is a file that contains information about the project.
     
 
-lets understand how we are getting the following page and how it is being rendered:-
+### Wondering how this page is rendered? let's understand
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1671800011394/7b64a9da-ffd5-4b41-a31a-37a1cc72b1be.png align="center")
 
-1. go to index.html file and there you will see a div with id root.
+1. firstly, go to index.html file and there you will see a div with id root.
     
     ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1671814427448/9d80a819-6045-4a63-bcbd-2f4391e75dbd.png align="center")
     
@@ -171,7 +185,7 @@ lets understand how we are getting the following page and how it is being render
     
     ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1671814492548/72ef41f2-7296-492a-ad0c-19c76f5cb530.png align="center")
     
-    see the root variable and you will find some similarities:-
+3. see the root variable and you will find some similarities:-
     
     ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1671814569458/ca715b10-81dc-4480-84ea-d149483a190e.png align="center")
     
@@ -179,7 +193,7 @@ lets understand how we are getting the following page and how it is being render
     const root=ReactDOM.createRoot(document.getElementById('root'))
     ```
     
-    you need to create a root element and then we will render it like this.
+4. you need to create a root element and then we will render it like this.
     
     ```javascript
     root.render(
@@ -189,31 +203,31 @@ lets understand how we are getting the following page and how it is being render
     );
     ```
     
-    in root.render you can see two things, first is `React.StrictMode` , and the second os `<App />`
+5. in root.render you can see two things, first is `React.StrictMode` , and the second os `<App />`
     
-    1. `React.StrictMode` is a component that is used to help identify potential problems in a React app. It is designed to trigger warnings in development mode to help developers find and fix problems that may cause bugs or performance issues.
+    * `React.StrictMode` is a component that is used to help identify potential problems in a React app. It is designed to trigger warnings in development mode to help developers find and fix problems that may cause bugs or performance issues.
         
         i will recommend removing it if you are starting up with React as it will show many possible errors, we will turn it on when we get a little familiar with the tools.
         
-    2. what is `<App />` ?
+    * what is `<App />` ?
         
         This is how we run a function in React, whenever you are writing a function make sure you are naming it in <mark>PascalCase</mark>, not in camelCase.
         
-    3. but we have not declared the app function in our index.js file as we are importing it from another file.
+    * but we have not declared the app function in our index.js file as we are importing it from another file.
         
         ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1671816176968/987435b5-ee72-48c7-a23c-6e97adf9afbd.png align="center")
         
-    4. let's go to the App.js file in the src folder.
+    * let's go to the App.js file in the src folder.
         
         ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1671816277718/3d4d4419-403e-4c78-9f55-e11f2d1b2b10.png align="center")
         
-        finally, we came to the function App which is responsible for rendering all the elements in our dom.
+    * finally, we came to the function App which is responsible for rendering all the elements in our dom.
         
-        **but how come we are writing HTML in a .js file?**
+        ### **but how come we are writing HTML in a .js file?**
         
-        **are u wondering the same thing?**
+        ### **is it possible?**
         
-        this is where we will learn our new concept which is JSX(JavaScript XML).
+        This is where we will learn our new concept which is **JSX(JavaScript XML)**.
         
 
 ## What is JSX?
@@ -226,7 +240,7 @@ We can write such code with the help of a transpiler that is babel.
 
 let's understand the hard part first and then we will move to the easy part:-
 
-in JS if we want to create an element we use the following code
+In JS if we want to create an element we use the following code
 
 ```javascript
 /*
@@ -256,9 +270,9 @@ let div = const element = React.createElement(
 );
 ```
 
-this is the basic difference between creating an element in react vs creating an element with js but creating an element in react also has a drawback i.e.
+This is the basic difference between creating an element in react vs creating an element with js but creating an element in react also has a drawback i.e.
 
-what if we want to create an element like that
+<mark>what if we want to create an element like below ?</mark>
 
 ```xml
 <div>  
@@ -286,7 +300,7 @@ const element = React.createElement(
 );
 ```
 
-now comes an activity for you guys,
+**<mark>Activity time</mark>**
 
 1. go to the index.js folder
     
@@ -299,7 +313,7 @@ now comes an activity for you guys,
     </div>
     ```
     
-3. after you do this in root.Render instead of &lt;App /&gt; write this
+3. after you do this in root.Render instead of &lt;App /&gt; write this:-
     
     ```javascript
     root.render(
@@ -309,16 +323,16 @@ now comes an activity for you guys,
     );
     ```
     
-4. meanwhile, remove the strict mode also and then save it and refresh the localhost page. you will see something like this:-
+4. meanwhile, remove the strict mode also and then save it, and refresh the localhost page. you will see something like this:-
     
     ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1671818851953/b380d698-0251-4944-b740-b3a51911d16b.png align="center")
     
-5. one more thing we understood is that if we want to run js in root.render then we will write it under a curly bracket like this {}.
+5. one more thing we understood is that if we want to run JS in root.render then we will write it under a curly bracket like this {}.
     
     we will look more into it in the blog ahead.
     
 
-now let's understand how we can write the same code with jsx
+now let's understand how we can write the same code with JSX.
 
 ```xml
 root.render(
@@ -348,6 +362,8 @@ const MyCode = ()=>{
 root.render(
 <MyCode />
 );
+
+/* to call a function in React you will always call it like <name /> instead of name() */
 ```
 
 now let's understand some rules of JSX:-
@@ -381,12 +397,14 @@ try it out yourself
 
 1. go to [https://babeljs.io/](https://babeljs.io/)
     
-2. click on try it out.
+2. Click on try it out.
     
     ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1671826668268/8dbc8611-0740-4982-8f3b-3f011e280af9.png align="center")
     
-3. then write your jsx and see hows it's converted.
+3. then write your JSX and see hows it's converted.
     
+
+now lets start the quiz.
 
 ## Quiz
 
