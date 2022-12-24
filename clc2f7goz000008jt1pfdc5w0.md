@@ -198,6 +198,116 @@ I hope this part is pretty much clear to all of you and if any one of you is fac
     In this example, the key attribute is set to the id of each item in the list. This allows React to keep track of the individual items and optimize the rendering of the list. It is important to note that the key attribute should be unique within the list of elements, and should not be used for any other purpose.
     
 
-this is actually a pre-release and i am working on this blog right now,
+## useState()
 
-i am adding additional info to the blog till then please do above activities.
+In React, the `state` is an object that holds data relevant to a component. The state is mutable, meaning it can be changed within the component, and it causes the component to re-render when it is updated.
+
+Here is an example of using state in a React component:
+
+```javascript
+import React, { useState } from 'react';
+
+function Example() {
+  // Declare a new state variable, which we'll call "count"
+  const [count, setCount] = useState(0);
+
+  return (
+    <div>
+      <p>You clicked {count} times</p>
+      <button onClick={() => setCount(count + 1)}>
+        Click me
+      </button>
+    </div>
+  );
+}
+```
+
+In this example, we use the `useState` hook to declare a new state variable called `count`, and we set its initial value to 0. We also declare a function called `setCount` that allows us to update the value of `count`.
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1671918184851/0ff3fbfb-06cd-4319-b241-05d9b9f5369a.png align="center")
+
+We then use the `count` variable in the component's JSX, and we pass the `setCount` function to the `onClick` event of a button. When the button is clicked, the `setCount` function is called and the `count` variable is incremented by 1. This causes the component to re-render and the value of `count` is displayed in the component's JSX.
+
+it can sound a lot confusing basically, useState is a hook in React that allows you to add state to functional components. It takes in a single argument, which is the initial value of the state, and returns an array with two elements: the current state value and a function that can be used to update the state.
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1671918571021/ab8122d7-ce70-417e-b0cf-6f4260858618.png align="center")
+
+I told you functional components are reusable in the above example you can easily see we are reusing the functional component to create three different counters.
+
+you must be having a lot of questions in your mind, relax and work on your question yourself. still, if you are facing an issue, you can always comment, and I will help you.
+
+## Now Quiz Time
+
+1. What is a functional component in React?
+    
+
+A) A component that is defined as a function
+
+B) A component that is defined as a class
+
+C) A component that is defined as a function and cannot have state or lifecycle methods
+
+D) A component that is defined as a class and cannot have state or lifecycle methods
+
+1. What is the main advantage of using functional components over class-based components in React?
+    
+
+A) Functional components are easier to understand and debug
+
+B) Functional components are more performant
+
+C) Functional components can have state and lifecycle methods
+
+D) Functional components can only be used for simple components
+
+1. How do you pass data from a parent component to a functional child component?
+    
+
+A) By using the "props" object
+
+B) By using the "state" object
+
+C) By using the "context" object
+
+D) By using the "data" object
+
+1. Can functional components have state in React?
+    
+
+A) Yes, by using the "useState" hook
+
+B) No, functional components cannot have state.
+
+C) Yes, by using the "setState" method
+
+D) Yes, by using the "state" object
+
+1. How do you access the current state value and update the state value in a functional component using the "useState" hook?
+    
+
+A) By using the "this.state" and "this.setState" methods
+
+B) By using the "state" and "setState" variables returned from the "useState" hook
+
+C) By using the "props" and "setProps" variables returned from the "useState" hook
+
+D) By using the "context" and "setContext" variables returned from the "useState" hook
+
+## Answers
+
+1. A - A functional component is a component that is defined as a function.
+    
+2. B - One of the main advantages of using functional components over class-based components is that they are more performant because they do not have the overhead of managing state and lifecycle methods.
+    
+3. A - Data can be passed from a parent component to a functional child component using the "props" object.
+    
+4. A - Functional components can have state in React by using the "useState" hook.
+    
+5. B - The current state value and the function to update the state value in a functional component using the "useState" hook can be accessed by using the variables returned from the "useState" hook, which are "state" and "setState" respectively.
+    
+
+that's all for today, Merry Christmas to all of you.
+
+keep learning, keep growing, and never stop striving to be the best developer you can be.
+
+I will meet you in the next blog.
