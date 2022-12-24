@@ -74,15 +74,6 @@ I am back with the second blog about mastering react in 8 weeks and I hope you g
     
     ```javascript
     npx create-react-app my-app
-    
-    
-    
-    
-    
-    
-    
-    
-    
     ```
     
     This will create a new directory called "my-app" with a basic React app setup.
@@ -514,8 +505,6 @@ We will learn some parts in the next blog but still, it's worth searching for ne
 For answers, you can attempt this quiz on google forms as well.
 
 [https://forms.gle/GsK4og3cnGMXJnrT9](https://forms.gle/GsK4og3cnGMXJnrT9)
-
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf4WfqcQauZ3ZTeKl_FhFdTCUBzudJS4g_WIer5nbVv4dkF-w/viewform?embedded=true" width="640" height="3394">Loading…</iframe>
 
 <mark>this is it for today!!</mark>
 
