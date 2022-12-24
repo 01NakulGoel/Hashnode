@@ -101,7 +101,7 @@ I hope this part is pretty much clear to all of you and if any one of you is fac
     
 3. be honest with yourself, at last, you are learning this for your growth.
     
-4. this is the code of above problem
+4. this is the code of the above problem
     
     ```javascript
     const App = (props) => {
@@ -117,8 +117,6 @@ I hope this part is pretty much clear to all of you and if any one of you is fac
             <li> Avatar: The Way of Water (2022)</li>
           </ul>
        </div>
-    
-      
       );
     };
     ```
@@ -165,7 +163,6 @@ I hope this part is pretty much clear to all of you and if any one of you is fac
             </div>
           );
         };
-            
         ```
         
     6. here in the above code, we are running js in the curly bracket, and in that bracket, we are running a map function which is returning us an array of li tags.
