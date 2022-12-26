@@ -41,7 +41,8 @@ I am back with the second blog about mastering react in 8 weeks and I hope you g
     4. Once the installation is complete, you can verify that Node.js is installed by opening a terminal or command prompt and typing the following command:
         
     
-    ```javascript
+   ```
+javascript
 node -v
 ```
 
@@ -50,7 +51,8 @@ This will print the version number of Node.js that is installed on your machine.
 1. To install npm (the Node.js package manager), simply run the following command in your terminal or command prompt:
 
 
-```javascript
+```
+javascript
 npm install -g npm
 ```
 
