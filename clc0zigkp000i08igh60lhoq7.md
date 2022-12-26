@@ -73,33 +73,34 @@ This will install npm globally on your machine, which means that you will be abl
     * Run the following command to create a new React app:
         
     
-    ```javascript
-    npx create-react-app my-app
-    ```
-    
-    This will create a new directory called "my-app" with a basic React app setup.
-    
-    you can name it anything.
-    
-    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1671799782196/625b22a9-f990-4872-9f0b-5b518c3bf158.png align="center")
-    
-    It can take time to install react according to your <mark>internet speed</mark> and your PC specs.
-    
-    * Navigate into the new project directory by running the following command:
-        
-    
-    ```javascript
-    cd my-app
-    ```
-    
-    * Start the development server by running the following command:
-        
-    
-    ```javascript
-    npm start
-    ```
-    
-    This will open a new browser window with your React app running.
+ ```javascript
+npx create-react-app my-app
+```
+
+This will create a new directory called "my-app" with a basic React app setup.
+
+you can name it anything.
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1671799782196/625b22a9-f990-4872-9f0b-5b518c3bf158.png align="center")
+
+It can take time to install react according to your <mark>internet speed</mark> and your PC specs.
+
+* Navigate into the new project directory by running the following command:
+
+
+```javascript
+cd my-app
+```
+
+* Start the development server by running the following command:
+
+
+```javascript
+npm start
+```
+
+This will open a new browser window with your React app running.
+
     
 
 <mark>I will recommend following my approach and do not install it globally reason being when you install it globally it is difficult to update the resource globally and moreover it can lead to version conflicts and other issues.</mark>
