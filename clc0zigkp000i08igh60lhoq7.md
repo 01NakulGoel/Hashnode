@@ -42,7 +42,7 @@ I am back with the second blog about mastering react in 8 weeks and I hope you g
         
     
    ```
-javascript
+
 node -v
 ```
 
@@ -52,7 +52,7 @@ This will print the version number of Node.js that is installed on your machine.
 
 
 ```
-javascript
+
 npm install -g npm
 ```
 
@@ -90,14 +90,14 @@ This will install npm globally on your machine, which means that you will be abl
     * Navigate into the new project directory by running the following command:
         
     
-    ```javascript
+    ```
     cd my-app
     ```
     
     * Start the development server by running the following command:
         
     
-    ```javascript
+    ```
     npm start
     ```
     
