@@ -10,7 +10,7 @@ in this blog, we will be doing some practice questions as well so tighten your s
 
 # React component?
 
-In React, a component is a piece of reusable code that represents a part of a user interface. Components can be either a function or a class.
+In React, a component is a piece of reusable code that represents a part of a user interface. Components can be either based on functions or a class.
 
 ```javascript
 const MyCode = ()=>{    
@@ -23,7 +23,7 @@ const MyCode = ()=>{
   }
 ```
 
-basically, MyCode (<mark>always remember to use PascalCase in React component</mark>) is a React component.
+basically, (<mark>always remember to use PascalCase in React component</mark>) `MyCode` is a React component.
 
 to render React component we will render it like the following part:-
 
@@ -35,11 +35,13 @@ root.render(
 
 we will always run react component as I have stated above.
 
-In React Component we can basically add a variable that props (short form for the properties ) to make it dynamic.
+In React Component, we can basically add an object that is a prop (short form for the properties ) to make it dynamic.
 
 watch the below code
 
 ```javascript
+// props can be  {style:"red",heading:"Nakul Goel",description:"I am learning react"}
+
 const MyCode = (props)=>{
 let {style,heading,description} = props
 
@@ -53,7 +55,13 @@ let {style,heading,description} = props
   }
 ```
 
-now we need to add props while calling the component
+here we are destructuring the props, I hope you guys are familiar with destructuring.
+
+now, we need to add props while calling the component.
+
+## How to render components with props?
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1672341295022/c30f76cb-d20e-4e6f-9b75-aa73caa52151.png align="center")
 
 ```javascript
 we have added all the props when we are actually calling the component
